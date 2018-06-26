@@ -1,0 +1,57 @@
+
+.container {
+  text-align: center;
+}
+
+.all-view {
+  padding: 40px;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  height: 1000px;
+}
+
+.people-name {
+  pointer-events: none;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.people {
+  padding: 10px 15px 20px;
+  background-color: #FFF;
+  border-radius: 11px;
+  border: solid 5px hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.people:hover {
+  box-shadow: -3px 4px #888888;
+}
+
+.people-img {
+  padding: 0;
+  border: 2px solid #847e7e;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  pointer-events: none;
+}
+
+.in {
+  background-color:#3cd80d;
+}
+
+.out {
+  background-color:#d22525;
+}
+
+#clock {
+  font-size: 30px;
+  width: 100%;
+  margin-bottom: 80px;
+}

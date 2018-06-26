@@ -1,0 +1,21 @@
+<div class="all-view">
+  <div class="container">
+
+    <p id="clock">00:00:0000</p>
+
+    <div class="row">
+      <% for(var i=0; i < peoples.length; i++) { %>
+        <div class="col-sm-4">
+          <div class="people <%= peoples[i].status %>" onClick="check('<%= peoples[i].id %>')">
+            <img src="<%= peoples[i].picture %>" alt="Imgem" class="img-thumbnail people-img">
+            <p class="people-name"><%= peoples[i].name %></p>
+          </div>
+        </div>
+      <% } %>
+    </div>
+    <!-- <a href="/people/report">Ver Relatórios</a> -->
+  </div>
+
+</div>
+
+<script src="../../js/all.js"></script>
