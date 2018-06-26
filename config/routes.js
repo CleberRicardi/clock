@@ -49,6 +49,11 @@ module.exports.routes = {
   'POST /people/check': {
     action:'check',
     controller: 'PeopleController'
-  }
+  },
+
+  'GET /clock': {
+    action:'view',
+    controller:'PeopleController'
+  }	
 
 };
